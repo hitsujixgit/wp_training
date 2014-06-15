@@ -1,0 +1,5 @@
+<!-- 投稿記事を表示する -->
+<div class="post">
+	<h2><?php the_title(); ?></h2>
+	<?php the_content(); ?>
+</div> <!-- post-->

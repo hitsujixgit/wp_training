@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*
+Theme Name: Training theme on iPhone Application Design.
+Theme URL: http://design.hitsuji.me/
+Description: For customizing wp-theme on iPhone Application Design.
+Author: Hitsuji
+Version: 1.0.2
+*/
+
+/*---------------------------------------------------------*/
+/* General */
+/*---------------------------------------------------------*/
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	background-image:url(img/background_dot.png);
+	background-repeat: repeat;
+}
+#wrapper {
+	background-color: #fff;
+}
+.centering {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	color: #8bb0cd;
+	font-size: 2.5em;
+	line-height: 1.2em;
+	text-shadow: 5px 5px 5px lightgray;
+}
+h1 a {
+	color: #8bb0cd;
+	text-decoration: none;
+}
+p#page-description {
+	/* color: #d49a9c; */
+	color: #8bb0cd;
+	text-decoration: none;
+	font-size: 1.4em;
+	margin-bottom: 15px;	
+	height: 25px;
+	border-bottom: double 4px #8bb0cd;
+	padding-left: 0.5em;
+	line-height: 25px;
+	/* padding-left: 30px;
+	background-image:url(img/round_squere_green_25.png);
+	background-position: center left;
+	background-repeat: no-repeat; */
+}
+/*---------------------------------------------------------*/
+/* header */
+/*---------------------------------------------------------*/
+#header {
+	text-align: center;
+}
+#header-menu {
+	background-image:url(img/background_dot.png);
+	background-repeat: repeat;
+	color:#fff;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#header-menu div.centering {
+     overflow: hidden;
+}
+
+#header-menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#header-menu li a {
+	display: block;
+	float: right;
+	padding: 0 5px 0 5px;
+	color: #fff;
+	text-decoration: none;
+	border-right: solid 1px #fff;
+}
+#header-menu li a:hover {
+	color:#dbc993;
+}
+
+/*---------------------------------------------------------*/
+/* footer */
+/*---------------------------------------------------------*/
+#footer {
+	clear: both;
+	background-image:url(img/background_dot.png);
+	background-repeat: repeat;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*---------------------------------------------------------*/
+/* Container 基本レイアウト*/
+/*---------------------------------------------------------*/
+div#container {
+	background-color: #fff;
+	overflow: hidden;
+}
+#navigation-box {
+	width: 200px;
+	float: left;
+	text-align: right;
+	/* top: 60px; 1.0.0 一度削除*/
+	/* position: fixed; 1.0.0 一度削除*/
+}
+div#main-box {
+	width: 770px;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+#contents {
+	width: 550px;
+	float: left;
+}
+#contents.home {
+	width: 765px;
+	float: left;
+}
+#contents.single-application {
+	width: 765px;
+}
+#sidebar {
+	width: 200px;
+	float: right;
+}
+
+/*---------------------------------------------------------*/
+/* navigation-box */
+/*---------------------------------------------------------*/
+#description {
+	font-size: 1.0em;
+	color: #555;
+	padding-left: 3em;
+}
+#navigation-box ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	line-height: 1.8em;
+}
+#navigation-box li a{
+	color: #8bb0cd;
+	text-decoration: none;
+}
+#navigation-box li a:hover {
+	color: #dbc993;
+}
+
+/*---------------------------------------------------------*/
+/*  sidebar */
+/*---------------------------------------------------------*/
+#sidebar h2 {
+	color: #8bb0cd;
+	border-bottom: solid 2px #8bb0cd;
+	margin:  3px 0;
+}
+#sidebar ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+#sidebar li {
+	list-style-type: none;
+}
+#sidebar li.widget_recent_entries li {
+	list-style-type: none;
+	line-height: 2.3em;
+}
+
+#sidebar li.widget_recent_entries li a {
+	display: block;
+	border-bottom: dotted 1px #888;
+	text-decoration: none;
+	color:#aaa;
+	padding-left: 3px;
+}
+#sidebar li.widget_recent_entries li a:hover {
+	background-color: #dbc993;
+	color: #fff;
+}
+
+/*---------------------------------------------------------*/
+/* 基本の投稿表示 */
+/*---------------------------------------------------------*/
+div.post {
+     overflow: hidden;
+	 background-image:url(img/wall-pic.png);
+	 background-repeat: repeat;
+	 border: solid 1px #ccc;
+	 border-radius: 10px;
+	 padding: 20px;
+	 margin-top: 5px;
+	 margin-bottom: 20px;
+	 box-shadow:  3px 3px 3px #aaa;
+	 -moz-box-shadow:  3px 3px 3px #aaa;
+	-webkit-box-shadow:  3px 3px 3px #aaa;
+	color: #660;
+}
+
+.post a {
+	color: #8bb0cd;
+}
+.post h2 {
+	color: #888;
+	font-size: 2.2em;
+	line-height: 1.2em;
+	clear: both; /*1.0.4*/
+	padding-left: 0.5em;
+}
+.post h2 a {
+	color: #888;
+	text-decoration: none;
+}
+.post h2 a:hover {
+	color: #dbc993;
+	text-decoration: none;
+}
+.post p.app-tags {
+	text-align: right;
+}
+.post h3 {
+	clear: both;
+	font-size: 1.8em;
+	color: #888;
+	padding: 0.3em 0 0.3em 0.5em;
+}
+.post h4 {
+	font-size: 1.3em;
+}
+
+/* Pictures */
+.post .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.post .alignleft {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.post .alignright {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.post .wp-caption {
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: underline;
+	color: #888;
+}
+
+/*---------------------------------------------------------*/
+/* アプリサマリー表示 */
+/*---------------------------------------------------------*/
+div.post .post.excerpt-application {
+	border: none;
+	border-radius: 0;
+	background-image: none;
+	box-shadow: none;
+	 -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	float: left;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+}
+div.post .post.excerpt-application h2 {
+	font-size: medium;
+	color: #d49a9c;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+div.post .post.excerpt-application h3 {
+	font-size: 1em;
+	color: #d49a9c;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 8px;
+}
+div.post .post.excerpt-application h3 a {
+	text-decoration: none;
+	color: #888;
+}

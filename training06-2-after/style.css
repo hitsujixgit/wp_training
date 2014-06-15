@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/*
+Theme Name: iPhone Application Design
+Theme URL: http://design.hitsuji.me/
+Description: This is for iPhone Application Design.
+Author: Hitsuji
+Version: 1.0.2
+*/
+
+/*---------------------------------------------------------*/
+/* General */
+/*---------------------------------------------------------*/
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	background-image:url(img/background_dot.png);
+	background-repeat: repeat;
+}
+#wrapper {
+	background-color: #fff;
+}
+.centering {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	color: #8bb0cd;
+	font-size: 2.5em;
+	line-height: 1.2em;
+	text-shadow: 5px 5px 5px lightgray;
+}
+
+/*---------------------------------------------------------*/
+/* header */
+/*---------------------------------------------------------*/
+#header {
+	text-align: center;
+}
+#header-menu {
+	background-image:url(img/background_dot.png);
+	background-repeat: repeat;
+	color:#fff;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#header-menu div.centering {
+     overflow: hidden;
+}
+/*---------------------------------------------------------*/
+/* footer */
+/*---------------------------------------------------------*/
+#footer {
+	clear: both;
+	background-image:url(img/background_dot.png);
+	background-repeat: repeat;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*---------------------------------------------------------*/
+/* Container 基本レイアウト*/
+/*---------------------------------------------------------*/
+div#container {
+	background-color: #fff;
+	overflow: hidden;
+}
+div#navigation-box {
+	width: 200px;
+	float: left;
+	text-align: right;
+	top: 60px;
+	position: fixed;
+}
+div#main-box {
+	width: 770px;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+#contents {
+	width: 550px;
+	float: left;
+}
+#sidebar {
+	width: 200px;
+	float: right;
+}
+
+/*---------------------------------------------------------*/
+/* navigation-box */
+/*---------------------------------------------------------*/
+#description {
+	font-size: 1.0em;
+	color: #555;
+	padding-left: 3em;
+}
+
+
+/*---------------------------------------------------------*/
+/* Post */
+/*---------------------------------------------------------*/
+div.post {
+     overflow: hidden;
+}
+.post h2 {
+	color: #d49a9c;
+	font-size: 2.2em;
+	line-height: 1.2em;
+	text-shadow: 5px 5px 5px lightgray;
+}
+.post h2 a {
+	color: #d49a9c;
+	text-decoration: none;
+}
+.post h2 a:hover {
+	color: #dbc993;
+	text-decoration: none;
+}
+
+/* Pictures */
+.post .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.post .alignleft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.post .alignright {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.post .wp-caption {
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: underline;
+	color: #888;
+}
+
+/*---------------------------------------------------------*/
+/*  sidebar */
+/*---------------------------------------------------------*/
+#sidebar h2 {
+	color: #8bb0cd;
+	border-bottom: solid 2px #8bb0cd;
+	margin:  3px 0;
+}
+#sidebar ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+#sidebar li {
+	list-style-type: none;
+}
+#sidebar li.widget_recent_entries li {
+	list-style-type: none;
+	line-height: 2.3em;
+}
+
+#sidebar li.widget_recent_entries li a {
+	display: block;
+	border-bottom: dotted 1px #888;
+	text-decoration: none;
+	color:#aaa;
+	padding-left: 3px;
+}
+#sidebar li.widget_recent_entries li a:hover {
+	background-color: #dbc993;
+	color: #fff;
+}

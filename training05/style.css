@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*
+Theme Name: Hitsuji Sample
+Theme URL: http://wordpress.hitsuji.me/
+Description: This is training theme.
+Author: Hitsuji
+Version: 1.0
+*/
+
+/*---------------------------------------------------------*/
+/* General */
+/*---------------------------------------------------------*/
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+}
+
+#container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*---------------------------------------------------------*/
+/* Header */
+/*---------------------------------------------------------*/
+#header h1 {
+	font-size: 2.0em;
+	color: darkred;
+	font-weight: bold;
+}
+p.page-title {
+	font-size: 1.5em;
+	background-color: darkred;
+	color: #fff;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 0;
+}
+/*---------------------------------------------------------*/
+/* Post */
+/*---------------------------------------------------------*/
+#contents .post {
+	background-color: #fee;
+	padding: 0 15px 10px 15px;
+	margin: 0 0 10px 0;
+	border: solid 1px darkred;
+}
+
+/* headline */
+#contents .post h2 {
+	background-image: url(darkred_marker_12x12.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 10px 0 10px 18px;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #333;
+	border-bottom: dashed 2px #aaa;
+}
+#contents .post h2 a {
+	color: #333;
+	text-decoration: none;
+}
+#contents .post h2 a:hover {
+	color: #aaa;
+}
+#contents .post h3 {
+	color: darkred;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.7em 0;
+}
+#contents .post h4 {
+	color: #333;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.6em 0;
+}
+
+/* paragraph */
+#contents .post p {
+	line-height: 1.6em;
+	margin: 0;
+	padding: 5px 0;
+}
+
+/* list */
+#contents .post ul {
+	margin-left: 20px;
+	padding-left: 10px;
+}
+#contents .post ol {
+	margin-left: 20px;
+	padding-left: 10px;
+}
+
+#contents .post li {
+	margin-left: 0px;
+	padding-left: 0;
+}
+
+/* Pictures */
+#contents .post .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contents .post .alignleft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contents .post .alignright {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#contents .post .wp-caption {
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: underline;
+	color: #888;
+}
+/*---------------------------------------------------------*/
+/* Footer */
+/*---------------------------------------------------------*/
+#footer {
+	font-size: 0.8em;
+	text-align: right;
+}
