@@ -1,17 +1,16 @@
-@charset "UTF-8";
 /*
-Theme Name: Training theme on iPhone Application Design.
-Theme URL: http://design.hitsuji.me/
-Description: For customizing wp-theme on iPhone Application Design.
-Author: Hitsuji
-Version: 1.0.0
+Theme Name: Wordpress sample theme for training
+Theme URL: http://wordpress.hitsuji.me
+Description: This is training theme.
+Author: Tae Matsumoto
+Version: 1.8.0
 */
 
 /*---------------------------------------------------------*/
 /* General */
 /*---------------------------------------------------------*/
 body {
-	font-family:"ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 	font-size: 12px;
 	margin: 0;
 	padding: 0;
@@ -85,7 +84,7 @@ h1 a {
 	padding-bottom: 10px;
 }
 /*---------------------------------------------------------*/
-/* Container åŸºæœ¬ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ*/
+/* Container Šî–{ƒŒƒCƒAƒEƒg*/
 /*---------------------------------------------------------*/
 div#container {
 	background-color: #fff;
@@ -95,8 +94,8 @@ div#container {
 	width: 200px;
 	float: left;
 	text-align: right;
-	/* top: 60px; 1.0.0 ä¸€åº¦å‰Šé™¤*/
-	/* position: fixed; 1.0.0 ä¸€åº¦å‰Šé™¤*/
+	/* top: 60px; 1.0.0 ˆê“xíœ*/
+	/* position: fixed; 1.0.0 ˆê“xíœ*/
 }
 div#main-box {
 	width: 770px;
@@ -169,7 +168,7 @@ div#main-box {
 }
 
 /*---------------------------------------------------------*/
-/* åŸºæœ¬ã®æŠ•ç¨¿è¡¨ç¤º */
+/* Šî–{‚Ì“Še•\¦ */
 /*---------------------------------------------------------*/
 div.post {
      overflow: hidden;

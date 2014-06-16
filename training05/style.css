@@ -1,18 +1,17 @@
-@charset "UTF-8";
 /*
-Theme Name: Hitsuji Sample
-Theme URL: http://wordpress.hitsuji.me/
+Theme Name: Wordpress sample theme for training
+Theme URL: http://wordpress.hitsuji.me
 Description: This is training theme.
-Author: Hitsuji
-Version: 1.0
+Author: Tae Matsumoto
+Version: 1.5
 */
 
 /*---------------------------------------------------------*/
 /* General */
 /*---------------------------------------------------------*/
 body {
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-size: 12px;
+	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 12px;
 }
 
 #container {

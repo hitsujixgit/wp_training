@@ -1,17 +1,16 @@
-@charset "UTF-8";
 /*
-Theme Name: iPhone Application Design
-Theme URL: http://design.hitsuji.me/
-Description: This is for iPhone Application Design.
-Author: Hitsuji
-Version: 1.0.2
+Theme Name: Wordpress sample theme for training
+Theme URL: http://wordpress.hitsuji.me
+Description: This is training theme.
+Author: Tae Matsumoto
+Version: 1.6.1
 */
 
 /*---------------------------------------------------------*/
 /* General */
 /*---------------------------------------------------------*/
 body {
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 	font-size: 12px;
 	margin: 0;
 	padding: 0;
@@ -63,7 +62,7 @@ h1 {
 	padding-bottom: 10px;
 }
 /*---------------------------------------------------------*/
-/* Container 基本レイアウト*/
+/* Container ��{���C�A�E�g*/
 /*---------------------------------------------------------*/
 div#container {
 	background-color: #fff;
